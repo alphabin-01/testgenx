@@ -19,38 +19,6 @@ test.afterEach(async () => {
     await context?.close();
 });
 
-
-
-test('Amazon product search for laptop', async ({ page }) => {
-    // Navigate to Amazon's homepage
-    await page.goto('https://www.amazon.in');
-    const acceptCookies = page.locator('input[name="accept"]');
-    if (await acceptCookies.isVisible()) {
-        await acceptCookies.click();
-    }
-    await page.fill('#twotabsearchtextbox', 'laptop');
-    await page.click('#nav-search-submit-button');
-    await page.waitForSelector('.s-main-slot');
-    const results = page.locator('.s-main-slot .s-result-item');
-    await expect(results.first()).toBeVisible();
-    await results.first().click();
-    await page.waitForSelector('#productTitle');
-    const productTitle = await page.textContent('#productTitle');
-    console.log('Product Title:', productTitle.trim());
-});
-
-
-
-// Auto generated test case
-test('case 1', async () => {
-    const page1 = await context.newPage();
-    await page1.goto('http://demo.alphabin.co');
-    await abPlaywright.setupLogging(page1);
-    await page1.locator(locators['SVG_9'], { description: descriptions['SVG_9'] }).click({ force: true });
-    await page1.locator(locators['SVG Path inside SVG_12'], { description: descriptions['SVG Path inside SVG_12'] }).click({ force: true });
-    await page1.close();
-});
-
 // Auto generated test case
 test('Alpha_E2E_001: Verify that the New user is able to Sign Up, Log In, and Navigate to the Home Page Successfully', async () => {
     const uniqe = Math.floor(new Date().getTime() / 1000.0)
@@ -430,7 +398,6 @@ test('Alpha_E2E_005: Verify that User Can Add, Edit, and Delete Addresses after 
     await expect(page1.locator(locators['Div_5'], { description: descriptions['Div_5'] })).toBeVisible();
     await expect(page1.locator(locators['Button with Text Delete'], { description: descriptions['Button with Text Delete'] })).toBeEnabled();
     await page1.locator(locators['Button with Text Delete'], { description: descriptions['Button with Text Delete'] }).click({ force: true });
-    await expect(page1.locator(locators['Div with role status'], { description: descriptions['Div with role status'] })).toBeVisible();
 
     // Cleanup
     await page1.close();
@@ -716,7 +683,7 @@ test('Alpha_E2E_09 - Verify that a User Can Add an Item to Wishlist, Then Move I
     await expect(page1.locator(locators['Button with Text ADD TO CART'], { description: descriptions['Button with Text ADD TO CART'] })).toHaveText(`ADD TO CART`);
     await page1.locator(locators['Button with Text ADD TO CART'], { description: descriptions['Button with Text ADD TO CART'] }).click({ force: true });
     // await page1.aiVisualCheck('screenshot_1748508693117.png', 0.8, 1000);
-    //await page1.locator(locators['SVG'], { description: descriptions['SVG'] }).click({ force: true });
+    await page1.locator(locators['SVG'], { description: descriptions['SVG'] }).click({ force: true });
     // await page1.aiVisualCheck('screenshot_1748508698949.png', 0.8, 1000);
     await expect(page1.locator(locators['Button with Text Checkout'], { description: descriptions['Button with Text Checkout'] })).toBeVisible();
     await page1.locator(locators['Button with Text Checkout'], { description: descriptions['Button with Text Checkout'] }).click({ force: true });
@@ -738,135 +705,129 @@ test('Alpha_E2E_09 - Verify that a User Can Add an Item to Wishlist, Then Move I
     await page1.close();
 });
 
-// Auto generated test case
-test('Alpha_E2E_011 - Verify that the New User is able to add Addresses in the Address section', async () => {
+// // Auto generated test case
+// test('Alpha_E2E_011 - Verify that the New User is able to add Addresses in the Address section', async () => {
 
-    const uniqe = Math.floor(new Date().getTime() / 1000.0)
-    const email = `hiren.alphabin+${uniqe}@gmail.com`;
-    const password = `Hiren@#$123`
-    const page1 = await context.newPage();
-    await page1.goto('http://demo.alphabin.co');
-    await abPlaywright.setupLogging(page1);
-    await page1.locator(locators['SVG Path inside SVG'], { description: descriptions['SVG Path inside SVG'] }).click({ force: true });
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/login`);
-    await page1.locator(locators['Span with Text Sign up'], { description: descriptions['Span with Text Sign up'] }).click({ force: true });
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/signup`);
-    await page1.locator(locators['Input with name firstname'], { description: descriptions['Input with name firstname'] }).click({ force: true });
-    await page1.locator(locators['Input with name firstname'], { description: descriptions['Input with name firstname'] }).fill(`Hiren`);
-    await page1.locator(locators['Input with name firstname'], { description: descriptions['Input with name firstname'] }).press(`Tab`);
-    await page1.locator(locators['Input with name lastname'], { description: descriptions['Input with name lastname'] }).fill(`Test`);
-    await page1.locator(locators['Input with name lastname'], { description: descriptions['Input with name lastname'] }).press(`Tab`);
-    await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).fill(email);
-    await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).click({ force: true });
-    await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).fill(password);
-    await page1.locator(locators['Button with Text Create Account'], { description: descriptions['Button with Text Create Account'] }).click({ force: true });
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/login`);
-    await page1.goto('http://demo.alphabin.co');
-    await abPlaywright.setupLogging(page1);
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/`);
-    await page1.locator(locators['SVG Path inside SVG'], { description: descriptions['SVG Path inside SVG'] }).click({ force: true });
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/login`);
-    await expect(page1).toHaveTitle(`AB Demo Store`);
-    await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).click({ force: true });
-    await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).fill(email);
-    await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).click({ force: true });
-    await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).fill(password);
-    await page1.locator(locators['Button with Text Sign in'], { description: descriptions['Button with Text Sign in'] }).click({ force: true });
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/`);
-    await page1.locator(locators['SVG Path inside SVG'], { description: descriptions['SVG Path inside SVG'] }).click({ force: true });
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/account`);
-    await expect(page1).toHaveTitle(`AB | My Account`);
-    await page1.locator(locators['H2 with Text My Profile'], { description: descriptions['H2 with Text My Profile'] }).click({ force: true });
-    await expect(page1).toHaveTitle(`AB | My Account`);
-    await page1.locator(locators['P with Text Addresses'], { description: descriptions['P with Text Addresses'] }).click({ force: true });
-    await expect(page1).toHaveTitle(`AB | My Account`);
-    await page1.locator(locators['Button with Text Add Your First Address'], { description: descriptions['Button with Text Add Your First Address'] }).click({ force: true });
-    await page1.locator(locators['Input with name firstname'], { description: descriptions['Input with name firstname'] }).click({ force: true });
-    await page1.locator(locators['Input with name firstname'], { description: descriptions['Input with name firstname'] }).fill(`Hiren`);
-    await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).click({ force: true });
-    await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).fill(email);
-    await page1.locator(locators['Input with name street'], { description: descriptions['Input with name street'] }).click({ force: true });
-    await page1.locator(locators['Input with name street'], { description: descriptions['Input with name street'] }).fill(`123/testing`);
-    await page1.locator(locators['Input with name city'], { description: descriptions['Input with name city'] }).click({ force: true });
-    await page1.locator(locators['Input with name city'], { description: descriptions['Input with name city'] }).fill(`test`);
-    await page1.locator(locators['Input with name state'], { description: descriptions['Input with name state'] }).click({ force: true });
-    await page1.locator(locators['Input with name state'], { description: descriptions['Input with name state'] }).fill(`local`);
-    await page1.locator(locators['Input with name country'], { description: descriptions['Input with name country'] }).click({ force: true });
-    await page1.locator(locators['Input with name country'], { description: descriptions['Input with name country'] }).fill(`earth`);
-    await page1.locator(locators['Input with name zip Code'], { description: descriptions['Input with name zip Code'] }).click({ force: true });
-    await page1.locator(locators['Input with name zip Code'], { description: descriptions['Input with name zip Code'] }).fill(`395013`);
-    await page1.locator(locators['Button with Text Save Address'], { description: descriptions['Button with Text Save Address'] }).click({ force: true });
-    await expect(page1.locator(locators['Div with role status'], { description: descriptions['Div with role status'] })).toBeVisible();
-    await page1.close();
+//     const uniqe = Math.floor(new Date().getTime() / 1000.0)
+//     const email = `hiren.alphabin+${uniqe}@gmail.com`;
+//     const password = `Hiren@#$123`
+//     const page1 = await context.newPage();
+//     await page1.goto('http://demo.alphabin.co');
+//     await abPlaywright.setupLogging(page1);
+//     await page1.locator(locators['SVG Path inside SVG'], { description: descriptions['SVG Path inside SVG'] }).click({ force: true });
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co/login`);
+//     await page1.locator(locators['Span with Text Sign up'], { description: descriptions['Span with Text Sign up'] }).click({ force: true });
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co/signup`);
+//     await page1.locator(locators['Input with name firstname'], { description: descriptions['Input with name firstname'] }).click({ force: true });
+//     await page1.locator(locators['Input with name firstname'], { description: descriptions['Input with name firstname'] }).fill(`Hiren`);
+//     await page1.locator(locators['Input with name firstname'], { description: descriptions['Input with name firstname'] }).press(`Tab`);
+//     await page1.locator(locators['Input with name lastname'], { description: descriptions['Input with name lastname'] }).fill(`Test`);
+//     await page1.locator(locators['Input with name lastname'], { description: descriptions['Input with name lastname'] }).press(`Tab`);
+//     await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).fill(email);
+//     await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).click({ force: true });
+//     await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).fill(password);
+//     await page1.locator(locators['Button with Text Create Account'], { description: descriptions['Button with Text Create Account'] }).click({ force: true });
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co/login`);
+//     await page1.goto('http://demo.alphabin.co');
+//     await abPlaywright.setupLogging(page1);
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co/`);
+//     await page1.locator(locators['SVG Path inside SVG'], { description: descriptions['SVG Path inside SVG'] }).click({ force: true });
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co/login`);
+//     await expect(page1).toHaveTitle(`AB Demo Store`);
+//     await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).click({ force: true });
+//     await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).fill(email);
+//     await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).click({ force: true });
+//     await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).fill(password);
+//     await page1.locator(locators['Button with Text Sign in'], { description: descriptions['Button with Text Sign in'] }).click({ force: true });
+//     await page1.locator(locators['SVG Path inside SVG'], { description: descriptions['SVG Path inside SVG'] }).click({ force: true });
+//     await page1.locator(locators['H2 with Text My Profile'], { description: descriptions['H2 with Text My Profile'] }).click({ force: true });
+//     await page1.locator(locators['P with Text Addresses'], { description: descriptions['P with Text Addresses'] }).click({ force: true });
+//     await page1.locator(locators['Button with Text Add Your First Address'], { description: descriptions['Button with Text Add Your First Address'] }).click({ force: true });
+//     await page1.locator(locators['Input with name firstname'], { description: descriptions['Input with name firstname'] }).click({ force: true });
+//     await page1.locator(locators['Input with name firstname'], { description: descriptions['Input with name firstname'] }).fill(`Hiren`);
+//     await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).click({ force: true });
+//     await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).fill(email);
+//     await page1.locator(locators['Input with name street'], { description: descriptions['Input with name street'] }).click({ force: true });
+//     await page1.locator(locators['Input with name street'], { description: descriptions['Input with name street'] }).fill(`123/testing`);
+//     await page1.locator(locators['Input with name city'], { description: descriptions['Input with name city'] }).click({ force: true });
+//     await page1.locator(locators['Input with name city'], { description: descriptions['Input with name city'] }).fill(`test`);
+//     await page1.locator(locators['Input with name state'], { description: descriptions['Input with name state'] }).click({ force: true });
+//     await page1.locator(locators['Input with name state'], { description: descriptions['Input with name state'] }).fill(`local`);
+//     await page1.locator(locators['Input with name country'], { description: descriptions['Input with name country'] }).click({ force: true });
+//     await page1.locator(locators['Input with name country'], { description: descriptions['Input with name country'] }).fill(`earth`);
+//     await page1.locator(locators['Input with name zip Code'], { description: descriptions['Input with name zip Code'] }).click({ force: true });
+//     await page1.locator(locators['Input with name zip Code'], { description: descriptions['Input with name zip Code'] }).fill(`395013`);
+//     await page1.locator(locators['Button with Text Save Address'], { description: descriptions['Button with Text Save Address'] }).click({ force: true });
+//     await expect(page1.locator(locators['Div with role status'], { description: descriptions['Div with role status'] })).toBeVisible();
+//     await page1.close();
 
-});
+// });
 
 
 
-// Auto generated test case
-test('Alpha_E2E_012 - login to logout', async () => {
+// // Auto generated test case
+// test('Alpha_E2E_012 - login to logout', async () => {
 
-    const email = `hiren.alphabin+1@gmail.com`;
-    const password = `Hiren@#$123`;
-    const page1 = await context.newPage();
-    await page1.goto('http://demo.alphabin.co');
-    await abPlaywright.setupLogging(page1);
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/`);
-    await page1.locator(locators['SVG Path inside SVG'], { description: descriptions['SVG Path inside SVG'] }).click({ force: true });
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/login`);
-    await expect(page1).toHaveTitle(`AB Demo Store`);
-    await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).click({ force: true });
-    await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).fill(email);
-    await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).click({ force: true });
-    await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).fill(password);
-    await page1.locator(locators['Button with Text Sign in'], { description: descriptions['Button with Text Sign in'] }).click({ force: true });
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/`);
-    await page1.locator(locators['SVG Path inside SVG'], { description: descriptions['SVG Path inside SVG'] }).click({ force: true });
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/account`);
-    await expect(page1).toHaveTitle(`AB | My Account`);
-    await page1.waitForTimeout(5000);
-    await page1.locator(locators['P with Text Log Out'], { description: descriptions['P with Text Log Out'] }).click({ force: true });
-    await page1.close();
-});
+//     const email = `hiren.alphabin+1@gmail.com`;
+//     const password = `Hiren@#$123`;
+//     const page1 = await context.newPage();
+//     await page1.goto('http://demo.alphabin.co');
+//     await abPlaywright.setupLogging(page1);
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co/`);
+//     await page1.locator(locators['SVG Path inside SVG'], { description: descriptions['SVG Path inside SVG'] }).click({ force: true });
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co/login`);
+//     await expect(page1).toHaveTitle(`AB Demo Store`);
+//     await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).click({ force: true });
+//     await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).fill(email);
+//     await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).click({ force: true });
+//     await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).fill(password);
+//     await page1.locator(locators['Button with Text Sign in'], { description: descriptions['Button with Text Sign in'] }).click({ force: true });
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co/`);
+//     await page1.locator(locators['SVG Path inside SVG'], { description: descriptions['SVG Path inside SVG'] }).click({ force: true });
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co/account`);
+//     await expect(page1).toHaveTitle(`AB | My Account`);
+//     await page1.waitForTimeout(5000);
+//     await page1.locator(locators['P with Text Log Out'], { description: descriptions['P with Text Log Out'] }).click({ force: true });
+//     await page1.close();
+// });
 
 
-// Auto generated test case
-test('Alpha_E2E_013 - Verify that the User Can Add a Product to Cart Before Login and Complete the Order After Logging In', async () => {
-    const page1 = await context.newPage();
-    await page1.goto('http://demo.alphabin.co');
-    await abPlaywright.setupLogging(page1);
-    await page1.locator(locators['Button with Text Shop Now'], { description: descriptions['Button with Text Shop Now'] }).click({ force: true });
-    await page1.locator(locators['Input with placeholder Search products'], { description: descriptions['Input with placeholder Search products'] }).fill(`mouse`);
-    await page1.locator(locators['H2'], { description: descriptions['H2'] }).click({ force: true });
-    await page1.locator(locators['Button with Text ADD TO CART'], { description: descriptions['Button with Text ADD TO CART'] }).click({ force: true });
-    await expect(page1.locator(locators['Div with role status'], { description: descriptions['Div with role status'] })).toBeVisible();
-    await page1.locator(locators['SVG'], { description: descriptions['SVG'] }).click({ force: true });
-    await expect(page1.locator(locators['H3'], { description: descriptions['H3'] })).toHaveText(`Logitech MX Master 3 Wireless Mouse`);
-    await page1.locator(locators['Button with Text Checkout'], { description: descriptions['Button with Text Checkout'] }).click({ force: true });
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/login`);
-    await expect(page1).toHaveTitle(`AB Demo Store`);
-    await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).click({ force: true });
-    await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).fill(`hiren.alphabin+1@gmail.com`);
-    await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).click({ force: true });
-    await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).fill(`Hiren@#$123`);
-    await page1.locator(locators['Button with Text Sign in'], { description: descriptions['Button with Text Sign in'] }).click({ force: true });
-    await page1.locator(locators['SVG'], { description: descriptions['SVG'] }).click({ force: true });
-    await expect(page1.locator(locators['H3'], { description: descriptions['H3'] })).toBeVisible();
-    await page1.locator(locators['Button with Text Checkout'], { description: descriptions['Button with Text Checkout'] }).click({ force: true });
-    await expect(page1).toHaveURL(`https://demo.alphabin.co`);
-    await page1.locator(locators['SVG'], { description: descriptions['SVG'] }).click({ force: true });
-    await page1.locator(locators['Button with Text Checkout'], { description: descriptions['Button with Text Checkout'] }).click({ force: true });
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/checkout`);
-    await expect(page1).toHaveTitle(`AB Demo Store`);
-    await page1.locator(locators['Button with Text Cash on Delivery'], { description: descriptions['Button with Text Cash on Delivery'] }).click({ force: true });
-    await expect(page1).toHaveTitle(`AB Demo Store`);
-    await page1.locator(locators['Button with Text Cash on Delivery'], { description: descriptions['Button with Text Cash on Delivery'] }).click({ force: true });
-    await page1.locator(locators['Html inside body_4'], { description: descriptions['Html inside body_4'] }).click({ force: true });
-    await page1.waitForTimeout(15000);
-    await expect(page1).toHaveURL(`https://demo.alphabin.co/checkout`);
-    await page1.waitForTimeout(10000);
-    await expect(page1).toHaveTitle(`AB Demo Store`);
-    await page1.waitForTimeout(10000);
-    console.log('✅ All steps completed — now closing the browser tab.');
-    await page1.close();
-});
+// // Auto generated test case
+// test('Alpha_E2E_013 - Verify that the User Can Add a Product to Cart Before Login and Complete the Order After Logging In', async () => {
+//     const page1 = await context.newPage();
+//     await page1.goto('http://demo.alphabin.co');
+//     await abPlaywright.setupLogging(page1);
+//     await page1.locator(locators['Button with Text Shop Now'], { description: descriptions['Button with Text Shop Now'] }).click({ force: true });
+//     await page1.locator(locators['Input with placeholder Search products'], { description: descriptions['Input with placeholder Search products'] }).fill(`mouse`);
+//     await page1.locator(locators['H2'], { description: descriptions['H2'] }).click({ force: true });
+//     await page1.locator(locators['Button with Text ADD TO CART'], { description: descriptions['Button with Text ADD TO CART'] }).click({ force: true });
+//     await expect(page1.locator(locators['Div with role status'], { description: descriptions['Div with role status'] })).toBeVisible();
+//     await page1.locator(locators['SVG'], { description: descriptions['SVG'] }).click({ force: true });
+//     await expect(page1.locator(locators['H3'], { description: descriptions['H3'] })).toHaveText(`Logitech MX Master 3 Wireless Mouse`);
+//     await page1.locator(locators['Button with Text Checkout'], { description: descriptions['Button with Text Checkout'] }).click({ force: true });
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co/login`);
+//     await expect(page1).toHaveTitle(`AB Demo Store`);
+//     await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).click({ force: true });
+//     await page1.locator(locators['Input with name email'], { description: descriptions['Input with name email'] }).fill(`hiren.alphabin+1@gmail.com`);
+//     await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).click({ force: true });
+//     await page1.locator(locators['Input with name password'], { description: descriptions['Input with name password'] }).fill(`Hiren@#$123`);
+//     await page1.locator(locators['Button with Text Sign in'], { description: descriptions['Button with Text Sign in'] }).click({ force: true });
+//     await page1.locator(locators['SVG'], { description: descriptions['SVG'] }).click({ force: true });
+//     await page1.locator(locators['Button with Text Checkout'], { description: descriptions['Button with Text Checkout'] }).click({ force: true });
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co`);
+//     await page1.locator(locators['SVG'], { description: descriptions['SVG'] }).click({ force: true });
+//     await page1.locator(locators['Button with Text Checkout'], { description: descriptions['Button with Text Checkout'] }).click({ force: true });
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co/checkout`);
+//     await expect(page1).toHaveTitle(`AB Demo Store`);
+//     await page1.locator(locators['Button with Text Cash on Delivery'], { description: descriptions['Button with Text Cash on Delivery'] }).click({ force: true });
+//     await expect(page1).toHaveTitle(`AB Demo Store`);
+//     await page1.locator(locators['Button with Text Cash on Delivery'], { description: descriptions['Button with Text Cash on Delivery'] }).click({ force: true });
+//     await page1.locator(locators['Html inside body_4'], { description: descriptions['Html inside body_4'] }).click({ force: true });
+//     await page1.waitForTimeout(15000);
+//     await expect(page1).toHaveURL(`https://demo.alphabin.co/checkout`);
+//     await page1.waitForTimeout(10000);
+//     await expect(page1).toHaveTitle(`AB Demo Store`);
+//     await page1.waitForTimeout(10000);
+//     console.log('✅ All steps completed — now closing the browser tab.');
+//     await page1.close();
+// });

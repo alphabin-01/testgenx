@@ -3,8 +3,8 @@ playwright-report
 test-results
 allure-results
 recordings
+.temp
 .DS_Store
-temp
 BrowserFactory.js
 cssCpath.js
 sourceOrderHighlighter.js
