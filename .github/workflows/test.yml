@@ -1,13 +1,13 @@
 # .github/workflows/playwright-daily.yml
-# Runs Playwright test shards every day at **11 : 23 AM IST** (05 : 53 UTC)
+# Runs Playwright test shards every day at **11 : 42 AM IST** (06 : 12 UTC)
 # plus anytime you trigger it manually from the Actions tab.
 
 name: Run Playwright tests
 
 on:
   schedule:
-    # GitHub cron is always UTC → 05:53 UTC = 11:23 AM IST (UTC+5:30)
-    - cron: '58 5 * * *'
+    # GitHub cron is always UTC → 06:12 UTC = 11:42 AM IST (UTC+5:30)
+    - cron: '12 6 * * *'
   workflow_dispatch:
 
 jobs:
