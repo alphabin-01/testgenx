@@ -1,30 +1,35 @@
+# .github/workflows/playwright-daily.yml
+# Runs Playwright test shards every day at **11 : 23 AM IST** (05 : 53 UTC)
+# plus anytime you trigger it manually from the Actions tab.
+
 name: Run Playwright tests
 
 on:
   schedule:
-  - cron: '53 5 * * *'
+    # GitHub cron is always UTC → 05:53 UTC = 11:23 AM IST (UTC+5:30)
+    - cron: '58 5 * * *'
   workflow_dispatch:
 
 jobs:
   run-tests:
-    name: Run tests
+    name: Run Playwright shards
     runs-on: ubuntu-latest
-    
+
     strategy:
       fail-fast: false
       matrix:
-        shardIndex: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        shardIndex: [1,2,3,4,5,6,7,8,9,10]
         shardTotal: [10]
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js 18.x
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Cache npm modules
+      - name: Cache npm dependencies
         uses: actions/cache@v3
         with:
           path: ~/.npm
@@ -32,17 +37,17 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install dependencies
+      - name: Install deps + browsers
         run: |
           npm ci
           npx playwright install --with-deps
 
-      - name: Run tests
+      - name: Run shard ${{ matrix.shardIndex }}
         run: npm run test:chrome -- --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
 
       - name: Upload blob report
-        uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
         with:
           name: blob-report-${{ matrix.shardIndex }}
           path: ./blob-report
@@ -50,19 +55,19 @@ jobs:
 
   merge-reports:
     name: Merge Reports
-    needs: [run-tests]
-    if: always()
+    needs: run-tests
+    if: always()             # run even if some shards fail
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js 18.x
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Cache npm modules
+      - name: Cache npm dependencies
         uses: actions/cache@v3
         with:
           path: ~/.npm
@@ -70,19 +75,19 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install dependencies
+      - name: Install deps + browsers
         run: |
           npm ci
           npx playwright install --with-deps
 
-      - name: Download blob reports
+      - name: Download all blob reports
         uses: actions/download-artifact@v4
         with:
           path: ./all-blob-reports
           pattern: blob-report-*
           merge-multiple: true
 
-      - name: Merge HTML/JSON report  
+      - name: Merge HTML & JSON reports
         run: npx playwright merge-reports --config=playwright.config.js ./all-blob-reports
 
       - name: Upload combined report
@@ -93,7 +98,10 @@ jobs:
           retention-days: 14
 
       - name: Send TestDino report
-        env: 
+        env:
           NODE_ENV: 'staging'
         run: |
-          npx --yes tdpw ./playwright-report --token="trx_staging_8e8d07d94ddde82c43fac1c83401555efbdff83c0e290138a95905df2a8e739e" --upload-html --verbose  
+          npx --yes tdpw ./playwright-report \
+            --token="trx_staging_8e8d07d94ddde82c43fac1c83401555efbdff83c0e290138a95905df2a8e739e" \
+            --upload-html \
+            --verbose
