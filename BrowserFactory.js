@@ -9,12 +9,12 @@ class BrowserFactory {
     static async createBrowserWithContext(browserName, contextOptions = {}) {
         let browser;
         let context;
-        const isHeadless = config.use.headless !== false;
+        const isHeadless = config.use?.headless !== false;
 
         const launchOptions = {
-            ...config.use.launchOptions,
+            ...(config.use?.launchOptions || {}),
             args: [
-                ...(config.use.launchOptions?.args || []),
+                ...(config.use?.launchOptions?.args || []),
                 '--window-size=1920,1080'  // works in both headless and headed mode
             ]
         };

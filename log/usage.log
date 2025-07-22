@@ -1,0 +1,732 @@
+2025-07-18 18:15:30 - [32minfo[39m: Creating configuration file...
+2025-07-18 18:15:30 - [32minfo[39m: Adding new script(s) in package.json...
+2025-07-18 18:15:30 - [32minfo[39m: Setup completed
+2025-07-18 18:22:43 - [32minfo[39m: Creating configuration file...
+2025-07-18 18:22:43 - [32minfo[39m: Setup completed
+2025-07-18 18:23:19 - [32minfo[39m: Reading configs from /Users/alphabin/Desktop/alphabin-demo-testgenx/browserstack.yml
+2025-07-18 18:23:19 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:23:19 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:23:19 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright tests/example.spec.ts
+2025-07-18 18:23:19 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright tests/example.spec.ts
+2025-07-18 18:24:18 - [32minfo[39m: Reading configs from /Users/alphabin/Desktop/alphabin-demo-testgenx/browserstack.yml
+2025-07-18 18:24:18 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:24:18 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:24:18 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright -- tests/example.spec.ts
+2025-07-18 18:24:18 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright -- tests/example.spec.ts
+2025-07-18 18:24:29 - [32minfo[39m: Reading configs from /Users/alphabin/Desktop/alphabin-demo-testgenx/browserstack.yml
+2025-07-18 18:24:29 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:24:29 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:24:29 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright
+2025-07-18 18:24:29 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright
+2025-07-18 18:32:09 - [32minfo[39m: Reading configs from /Users/alphabin/Desktop/alphabin-demo-testgenx/browserstack.yml
+2025-07-18 18:32:09 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:32:09 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:32:09 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright
+2025-07-18 18:32:09 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright
+2025-07-18 18:33:41 - [32minfo[39m: Reading configs from /Users/alphabin/Desktop/alphabin-demo-testgenx/browserstack.yml
+2025-07-18 18:33:41 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:33:41 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:33:41 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright
+2025-07-18 18:33:41 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright
+2025-07-18 18:42:08 - [32minfo[39m: Reading configs from /Users/alphabin/Desktop/alphabin-demo-testgenx/browserstack.yml
+2025-07-18 18:42:08 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:42:08 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:42:08 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright test
+2025-07-18 18:42:08 - [32minfo[39m: SDK run started with id: 78f55a66-ac47-4d60-9f48-5476c721ea7b
+2025-07-18 18:42:09 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-07-18 18:42:21 - [32minfo[39m: Local binary started successfully
+2025-07-18 18:42:08 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright test
+2025-07-18 18:42:08 - [32minfo[39m: SDK run started with id: 78f55a66-ac47-4d60-9f48-5476c721ea7b
+2025-07-18 18:42:09 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-07-18 18:42:21 - [32minfo[39m: Local binary started successfully
+2025-07-18 18:42:22 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-07-18 18:42:22 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-07-18 18:42:22 - [32minfo[39m: [CLIUtils] Current CLI Path Found: 
+2025-07-18 18:42:22 - [32minfo[39m: [CLIUtils] Current CLI Path Found: 
+2025-07-18 18:42:28 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/alphabin/.browserstack/cli/binary-macos-x64,sdk'
+2025-07-18 18:42:28 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/alphabin/.browserstack/cli/binary-macos-x64,sdk'
+2025-07-18 18:42:28 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"e2860a51-d5a2-4f85-aecb-ad687ee87588","listen":"unix:/tmp/sdk-platform-e2860a51-d5a2-4f85-aecb-ad687ee87588.sock"}
+2025-07-18 18:42:28 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"e2860a51-d5a2-4f85-aecb-ad687ee87588","listen":"unix:/tmp/sdk-platform-e2860a51-d5a2-4f85-aecb-ad687ee87588.sock"}
+2025-07-18 18:42:28 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e2860a51-d5a2-4f85-aecb-ad687ee87588.sock
+2025-07-18 18:42:28 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: e2860a51-d5a2-4f85-aecb-ad687ee87588 and listen address: unix:/tmp/sdk-platform-e2860a51-d5a2-4f85-aecb-ad687ee87588.sock
+2025-07-18 18:42:28 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-07-18 18:42:28 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-07-18 18:42:28 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e2860a51-d5a2-4f85-aecb-ad687ee87588.sock
+2025-07-18 18:42:28 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: e2860a51-d5a2-4f85-aecb-ad687ee87588 and listen address: unix:/tmp/sdk-platform-e2860a51-d5a2-4f85-aecb-ad687ee87588.sock
+2025-07-18 18:42:28 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-07-18 18:42:28 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-07-18 18:42:35 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-07-18 18:42:35 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-07-18 18:42:35 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:42:35 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:35 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:42:35 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-07-18 18:42:35 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:42:35 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:35 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:42:35 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-07-18 18:42:38 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=TypeError: Cannot read properties of undefined (reading 'name')
+    at BrowserstackCLI.setupAutomationFramework (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:20823)
+    at BrowserstackCLI.bootstrap (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:5920)
+    at modifyPWConfig (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/browserstack-node-sdk/src/bin/playwright/modifyPlaywrightConf.js:1:23354)
+    at Object.<anonymous> (/Users/alphabin/Desktop/alphabin-demo-testgenx/playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.newCompile2 (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/third_party/pirates.js:46:29)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.newLoader2 [as .js] (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/third_party/pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at requireOrImport (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/transform/transform.js:218:18)
+    at loadUserConfig (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/common/configLoader.js:106:89)
+    at loadConfig (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/common/configLoader.js:118:28)
+    at TestServerDispatcher._loadConfig (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/runner/testServer.js:366:22)
+    at TestServerDispatcher._loadConfigOrReportError (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/runner/testServer.js:380:31)
+    at TestServerDispatcher.listFiles (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/runner/testServer.js:189:20)
+    at i.<anonymous> (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright-core/lib/server/utils/httpServer.js:87:26)
+2025-07-18 18:42:38 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-07-18 18:42:38 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:38 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e2860a51-d5a2-4f85-aecb-ad687ee87588.sock
+2025-07-18 18:42:38 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-07-18 18:42:38 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-07-18 18:42:38 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:42:38 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:38 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:42:38 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-07-18 18:42:38 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-07-18 18:42:39 - [32minfo[39m: Setting up TestInfo directory at /Users/alphabin/Desktop/alphabin-demo-testgenx/log/.obs_test_details-undefined
+2025-07-18 18:42:39 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=17934:0, state=TestFrameworkState.INIT_TEST
+2025-07-18 18:42:39 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=4ce37aeb3a4c026cbbcd5b8ad2b3fb2c9f27b8f9ba3c4c9e97649b04186fa827 target=17934:0
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e2860a51-d5a2-4f85-aecb-ad687ee87588.sock
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e2860a51-d5a2-4f85-aecb-ad687ee87588.sock
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e2860a51-d5a2-4f85-aecb-ad687ee87588.sock
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e2860a51-d5a2-4f85-aecb-ad687ee87588
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-07-18 18:42:42 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: getting screenshots results.
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: getting screenshots results.
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: getting screenshots results.
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:42:51 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-07-18 18:42:51 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-07-18 18:42:51 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-07-18 18:42:51 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-07-18 18:42:56 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-07-18 18:42:56 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-07-18 18:42:56 - [32minfo[39m: [BrowserstackCLI] stop: stopBinSession build_link=null hashed_id=null o11y_uuid=53skx4vra3vej92ikgbmjk8nysd2poko2tr3ytc4
+2025-07-18 18:42:56 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-07-18 18:42:56 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-07-18 18:42:56 - [32minfo[39m: [BrowserstackCLI] stop: stopBinSession build_link=null hashed_id=null o11y_uuid=53skx4vra3vej92ikgbmjk8nysd2poko2tr3ytc4
+2025-07-18 18:42:56 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-07-18 18:42:56 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-07-18 18:43:01 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-07-18 18:43:01 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-07-18 18:43:01 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-07-18 18:43:01 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-07-18 18:43:01 - [32minfo[39m: Visit https://observability.browserstack.com/builds/53skx4vra3vej92ikgbmjk8nysd2poko2tr3ytc4 to view build report, insights, and many more debugging information all at one place!
+
+2025-07-18 18:43:01 - [32minfo[39m: Visit https://observability.browserstack.com/builds/53skx4vra3vej92ikgbmjk8nysd2poko2tr3ytc4 to view build report, insights, and many more debugging information all at one place!
+
+2025-07-18 18:43:02 - [32minfo[39m: SDK run ended for id: 78f55a66-ac47-4d60-9f48-5476c721ea7b, testhub id: 53skx4vra3vej92ikgbmjk8nysd2poko2tr3ytc4
+2025-07-18 18:43:02 - [32minfo[39m: SDK run ended for id: 78f55a66-ac47-4d60-9f48-5476c721ea7b, testhub id: 53skx4vra3vej92ikgbmjk8nysd2poko2tr3ytc4
+2025-07-18 18:43:06 - [32minfo[39m: Deleting /Users/alphabin/Desktop/alphabin-demo-testgenx/playwright-browserstack-sdk.config.js
+2025-07-18 18:43:06 - [32minfo[39m: Deleting /Users/alphabin/Desktop/alphabin-demo-testgenx/playwright-browserstack-sdk.config.js
+2025-07-18 18:43:09 - [32minfo[39m: Local binary stopped
+2025-07-18 18:43:09 - [32minfo[39m: Local binary stopped
+2025-07-18 18:43:09 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-07-18 18:43:09 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-07-18 18:43:10 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 18:43:10 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 18:43:10 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 18:43:10 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 18:43:11 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 18:43:11 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 18:54:57 - [32minfo[39m: Reading configs from /Users/alphabin/Desktop/alphabin-demo-testgenx/browserstack.yml
+2025-07-18 18:54:57 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:54:57 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:54:57 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright test
+2025-07-18 18:54:57 - [32minfo[39m: SDK run started with id: bd8b78d4-f94b-48f8-918f-09ddcca38eb5
+2025-07-18 18:54:57 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-07-18 18:55:02 - [32minfo[39m: Local binary started successfully
+2025-07-18 18:54:57 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright test
+2025-07-18 18:54:57 - [32minfo[39m: SDK run started with id: bd8b78d4-f94b-48f8-918f-09ddcca38eb5
+2025-07-18 18:54:57 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-07-18 18:55:02 - [32minfo[39m: Local binary started successfully
+2025-07-18 18:55:03 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-07-18 18:55:03 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-07-18 18:55:03 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/alphabin/.browserstack/cli/binary-macos-x64
+2025-07-18 18:55:03 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/alphabin/.browserstack/cli/binary-macos-x64
+2025-07-18 18:55:04 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/alphabin/.browserstack/cli/binary-macos-x64,sdk'
+2025-07-18 18:55:04 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/alphabin/.browserstack/cli/binary-macos-x64,sdk'
+2025-07-18 18:55:04 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"5320a8af-2da0-4a8d-836a-2a554f119467","listen":"unix:/tmp/sdk-platform-5320a8af-2da0-4a8d-836a-2a554f119467.sock"}
+2025-07-18 18:55:04 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"5320a8af-2da0-4a8d-836a-2a554f119467","listen":"unix:/tmp/sdk-platform-5320a8af-2da0-4a8d-836a-2a554f119467.sock"}
+2025-07-18 18:55:04 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-5320a8af-2da0-4a8d-836a-2a554f119467.sock
+2025-07-18 18:55:04 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 5320a8af-2da0-4a8d-836a-2a554f119467 and listen address: unix:/tmp/sdk-platform-5320a8af-2da0-4a8d-836a-2a554f119467.sock
+2025-07-18 18:55:04 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-07-18 18:55:04 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-07-18 18:55:04 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-5320a8af-2da0-4a8d-836a-2a554f119467.sock
+2025-07-18 18:55:04 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 5320a8af-2da0-4a8d-836a-2a554f119467 and listen address: unix:/tmp/sdk-platform-5320a8af-2da0-4a8d-836a-2a554f119467.sock
+2025-07-18 18:55:04 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-07-18 18:55:04 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-07-18 18:55:10 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-07-18 18:55:10 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-07-18 18:55:10 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:55:10 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:10 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:55:10 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-07-18 18:55:10 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:55:10 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:10 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:55:10 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-07-18 18:55:14 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=TypeError: Cannot read properties of undefined (reading 'name')
+    at BrowserstackCLI.setupAutomationFramework (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:20823)
+    at BrowserstackCLI.bootstrap (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:5920)
+    at modifyPWConfig (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/browserstack-node-sdk/src/bin/playwright/modifyPlaywrightConf.js:1:23354)
+    at Object.<anonymous> (/Users/alphabin/Desktop/alphabin-demo-testgenx/playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.newCompile2 (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/third_party/pirates.js:46:29)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.newLoader2 [as .js] (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/third_party/pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at requireOrImport (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/transform/transform.js:218:18)
+    at loadUserConfig (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/common/configLoader.js:106:89)
+    at loadConfig (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/common/configLoader.js:118:28)
+    at TestServerDispatcher._loadConfig (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/runner/testServer.js:366:22)
+    at TestServerDispatcher._loadConfigOrReportError (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/runner/testServer.js:380:31)
+    at TestServerDispatcher.listFiles (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/runner/testServer.js:189:20)
+    at i.<anonymous> (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright-core/lib/server/utils/httpServer.js:87:26)
+2025-07-18 18:55:14 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-07-18 18:55:14 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:14 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-5320a8af-2da0-4a8d-836a-2a554f119467.sock
+2025-07-18 18:55:14 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-07-18 18:55:14 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-07-18 18:55:14 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:55:14 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:14 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:55:15 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-07-18 18:55:15 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-07-18 18:55:15 - [32minfo[39m: Setting up TestInfo directory at /Users/alphabin/Desktop/alphabin-demo-testgenx/log/.obs_test_details-undefined
+2025-07-18 18:55:15 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=18800:0, state=TestFrameworkState.INIT_TEST
+2025-07-18 18:55:15 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=18f00b41d7a86bb5f036e665c07c4a54afa73dcaede73408bf6fcfc6451b0bf6 target=18800:0
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-5320a8af-2da0-4a8d-836a-2a554f119467.sock
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-5320a8af-2da0-4a8d-836a-2a554f119467.sock
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-5320a8af-2da0-4a8d-836a-2a554f119467.sock
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 5320a8af-2da0-4a8d-836a-2a554f119467
+2025-07-18 18:55:18 - [32minfo[39m: getting screenshots results.
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:55:18 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: getting screenshots results.
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: getting screenshots results.
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:18 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 18:55:27 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-07-18 18:55:27 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-07-18 18:55:27 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-07-18 18:55:27 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-07-18 18:55:33 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-07-18 18:55:33 - [32minfo[39m: [BrowserstackCLI] stop: stopBinSession build_link=null hashed_id=null o11y_uuid=cwz6r7xj2jllf9hvzfs0rycgbumf9lwjx7wqbsiy
+2025-07-18 18:55:33 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-07-18 18:55:33 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-07-18 18:55:33 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-07-18 18:55:33 - [32minfo[39m: [BrowserstackCLI] stop: stopBinSession build_link=null hashed_id=null o11y_uuid=cwz6r7xj2jllf9hvzfs0rycgbumf9lwjx7wqbsiy
+2025-07-18 18:55:33 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-07-18 18:55:33 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-07-18 18:55:38 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-07-18 18:55:38 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-07-18 18:55:38 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-07-18 18:55:38 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-07-18 18:55:38 - [32minfo[39m: Visit https://observability.browserstack.com/builds/cwz6r7xj2jllf9hvzfs0rycgbumf9lwjx7wqbsiy to view build report, insights, and many more debugging information all at one place!
+
+2025-07-18 18:55:38 - [32minfo[39m: Visit https://observability.browserstack.com/builds/cwz6r7xj2jllf9hvzfs0rycgbumf9lwjx7wqbsiy to view build report, insights, and many more debugging information all at one place!
+
+2025-07-18 18:55:38 - [32minfo[39m: SDK run ended for id: bd8b78d4-f94b-48f8-918f-09ddcca38eb5, testhub id: cwz6r7xj2jllf9hvzfs0rycgbumf9lwjx7wqbsiy
+2025-07-18 18:55:38 - [32minfo[39m: SDK run ended for id: bd8b78d4-f94b-48f8-918f-09ddcca38eb5, testhub id: cwz6r7xj2jllf9hvzfs0rycgbumf9lwjx7wqbsiy
+2025-07-18 18:55:43 - [32minfo[39m: Deleting /Users/alphabin/Desktop/alphabin-demo-testgenx/playwright-browserstack-sdk.config.js
+2025-07-18 18:55:43 - [32minfo[39m: Deleting /Users/alphabin/Desktop/alphabin-demo-testgenx/playwright-browserstack-sdk.config.js
+2025-07-18 18:55:46 - [32minfo[39m: Local binary stopped
+2025-07-18 18:55:46 - [32minfo[39m: Local binary stopped
+2025-07-18 18:55:46 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-07-18 18:55:46 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-07-18 18:55:47 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 18:55:47 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 18:55:48 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 18:55:48 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 18:55:48 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 18:55:48 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 18:59:39 - [32minfo[39m: Reading configs from /Users/alphabin/Desktop/alphabin-demo-testgenx/browserstack.yml
+2025-07-18 18:59:39 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:59:39 - [32minfo[39m: Log Directory has been set to /Users/alphabin/Desktop/alphabin-demo-testgenx/log
+2025-07-18 18:59:39 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright test
+2025-07-18 18:59:39 - [32minfo[39m: SDK run started with id: da3a3aee-c69e-4f60-afa6-88a426e58b25
+2025-07-18 18:59:39 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-07-18 18:59:44 - [32minfo[39m: Local binary started successfully
+2025-07-18 18:59:39 - [32minfo[39m: Running SDK with args /usr/local/bin/node /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/.bin/browserstack-node-sdk playwright test
+2025-07-18 18:59:39 - [32minfo[39m: SDK run started with id: da3a3aee-c69e-4f60-afa6-88a426e58b25
+2025-07-18 18:59:39 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-07-18 18:59:44 - [32minfo[39m: Local binary started successfully
+2025-07-18 18:59:45 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-07-18 18:59:45 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-07-18 18:59:45 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/alphabin/.browserstack/cli/binary-macos-x64
+2025-07-18 18:59:45 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/alphabin/.browserstack/cli/binary-macos-x64
+2025-07-18 18:59:45 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/alphabin/.browserstack/cli/binary-macos-x64,sdk'
+2025-07-18 18:59:45 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/alphabin/.browserstack/cli/binary-macos-x64,sdk'
+2025-07-18 18:59:46 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"53cd64ad-3ccd-4ae7-8a60-b5472ef476f0","listen":"unix:/tmp/sdk-platform-53cd64ad-3ccd-4ae7-8a60-b5472ef476f0.sock"}
+2025-07-18 18:59:46 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"53cd64ad-3ccd-4ae7-8a60-b5472ef476f0","listen":"unix:/tmp/sdk-platform-53cd64ad-3ccd-4ae7-8a60-b5472ef476f0.sock"}
+2025-07-18 18:59:46 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-53cd64ad-3ccd-4ae7-8a60-b5472ef476f0.sock
+2025-07-18 18:59:46 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 53cd64ad-3ccd-4ae7-8a60-b5472ef476f0 and listen address: unix:/tmp/sdk-platform-53cd64ad-3ccd-4ae7-8a60-b5472ef476f0.sock
+2025-07-18 18:59:46 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-07-18 18:59:46 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-07-18 18:59:46 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-53cd64ad-3ccd-4ae7-8a60-b5472ef476f0.sock
+2025-07-18 18:59:46 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 53cd64ad-3ccd-4ae7-8a60-b5472ef476f0 and listen address: unix:/tmp/sdk-platform-53cd64ad-3ccd-4ae7-8a60-b5472ef476f0.sock
+2025-07-18 18:59:46 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-07-18 18:59:46 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2025-07-18 18:59:51 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-07-18 18:59:51 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-07-18 18:59:51 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:59:51 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 18:59:51 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:59:51 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-07-18 18:59:51 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:59:51 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 18:59:51 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:59:51 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2025-07-18 18:59:55 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=TypeError: Cannot read properties of undefined (reading 'name')
+    at BrowserstackCLI.setupAutomationFramework (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:20823)
+    at BrowserstackCLI.bootstrap (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/browserstack-node-sdk/src/bin/v2/browserstackCLI.js:1:5920)
+    at modifyPWConfig (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/browserstack-node-sdk/src/bin/playwright/modifyPlaywrightConf.js:1:23354)
+    at Object.<anonymous> (/Users/alphabin/Desktop/alphabin-demo-testgenx/playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.newCompile2 (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/third_party/pirates.js:46:29)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.newLoader2 [as .js] (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/third_party/pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at requireOrImport (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/transform/transform.js:218:18)
+    at loadUserConfig (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/common/configLoader.js:106:89)
+    at loadConfig (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/common/configLoader.js:118:28)
+    at TestServerDispatcher._loadConfig (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/runner/testServer.js:366:22)
+    at TestServerDispatcher._loadConfigOrReportError (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/runner/testServer.js:380:31)
+    at TestServerDispatcher.listFiles (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright/lib/runner/testServer.js:189:20)
+    at i.<anonymous> (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/playwright-core/lib/server/utils/httpServer.js:87:26)
+2025-07-18 18:59:55 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-07-18 18:59:55 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 18:59:55 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-53cd64ad-3ccd-4ae7-8a60-b5472ef476f0.sock
+2025-07-18 18:59:55 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-07-18 18:59:55 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-07-18 18:59:55 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 18:59:55 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 18:59:55 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 18:59:55 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-07-18 18:59:55 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-07-18 18:59:55 - [32minfo[39m: Setting up TestInfo directory at /Users/alphabin/Desktop/alphabin-demo-testgenx/log/.obs_test_details-undefined
+2025-07-18 18:59:55 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=20246:0, state=TestFrameworkState.INIT_TEST
+2025-07-18 18:59:55 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=0fb4d3f9540e2fdac6d5cbb03f7d93aecb53984ed2a973d2d227413b96a0925c target=20246:0
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-53cd64ad-3ccd-4ae7-8a60-b5472ef476f0.sock
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-53cd64ad-3ccd-4ae7-8a60-b5472ef476f0.sock
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-53cd64ad-3ccd-4ae7-8a60-b5472ef476f0.sock
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 53cd64ad-3ccd-4ae7-8a60-b5472ef476f0
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: getting screenshots results.
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 19:00:01 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: getting screenshots results.
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:01 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:02 - [32minfo[39m: getting screenshots results.
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-07-18 19:00:02 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-07-18 19:00:02 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-07-18 19:00:02 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-07-18 19:00:10 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-07-18 19:00:10 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-07-18 19:00:10 - [32minfo[39m: [BrowserstackCLI] stop: stopBinSession build_link=null hashed_id=null o11y_uuid=twzffwkr2piaqtdena5kbaoz8sqwfutqkbxbu6ug
+2025-07-18 19:00:10 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-07-18 19:00:10 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-07-18 19:00:10 - [32minfo[39m: [BrowserstackCLI] stop: stopBinSession build_link=null hashed_id=null o11y_uuid=twzffwkr2piaqtdena5kbaoz8sqwfutqkbxbu6ug
+2025-07-18 19:00:10 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-07-18 19:00:10 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-07-18 19:00:15 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-07-18 19:00:15 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-07-18 19:00:15 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-07-18 19:00:15 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-07-18 19:00:15 - [32minfo[39m: Visit https://observability.browserstack.com/builds/twzffwkr2piaqtdena5kbaoz8sqwfutqkbxbu6ug to view build report, insights, and many more debugging information all at one place!
+
+2025-07-18 19:00:15 - [32minfo[39m: Visit https://observability.browserstack.com/builds/twzffwkr2piaqtdena5kbaoz8sqwfutqkbxbu6ug to view build report, insights, and many more debugging information all at one place!
+
+2025-07-18 19:00:15 - [32minfo[39m: SDK run ended for id: da3a3aee-c69e-4f60-afa6-88a426e58b25, testhub id: twzffwkr2piaqtdena5kbaoz8sqwfutqkbxbu6ug
+2025-07-18 19:00:15 - [32minfo[39m: SDK run ended for id: da3a3aee-c69e-4f60-afa6-88a426e58b25, testhub id: twzffwkr2piaqtdena5kbaoz8sqwfutqkbxbu6ug
+2025-07-18 19:00:19 - [32minfo[39m: Deleting /Users/alphabin/Desktop/alphabin-demo-testgenx/playwright-browserstack-sdk.config.js
+2025-07-18 19:00:19 - [32minfo[39m: Deleting /Users/alphabin/Desktop/alphabin-demo-testgenx/playwright-browserstack-sdk.config.js
+2025-07-18 19:00:22 - [32minfo[39m: Local binary stopped
+2025-07-18 19:00:22 - [32minfo[39m: Local binary stopped
+2025-07-18 19:00:22 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-07-18 19:00:22 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-07-18 19:00:22 - [31merror[39m: Error in sending request to BrowserStack Server : RequestError: ENOENT: no such file or directory, stat '/Users/alphabin/Desktop/alphabin-demo-testgenx/test-results/example-Alpha-E2E-001-Veri-0cb4a--the-Home-Page-Successfully--latest-Windows-10-browserstack/trace.zip'
+    at Request._destroy (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/got/dist/source/core/index.js:1386:21)
+    at _destroy (node:internal/streams/destroy:121:10)
+    at Request.destroy (node:internal/streams/destroy:83:5)
+    at Writable.destroy (node:internal/streams/writable:1120:11)
+    at /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/got/dist/source/core/index.js:354:26
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9) {
+  code: 'ENOENT',
+  timings: undefined
+}
+2025-07-18 19:00:22 - [31merror[39m: Error in sending request to BrowserStack Server : RequestError: ENOENT: no such file or directory, stat '/Users/alphabin/Desktop/alphabin-demo-testgenx/test-results/example-Alpha-E2E-001-Veri-0cb4a--the-Home-Page-Successfully--latest-OSX-Big-Sur-browserstack/trace.zip'
+    at Request._destroy (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/got/dist/source/core/index.js:1386:21)
+    at _destroy (node:internal/streams/destroy:121:10)
+    at Request.destroy (node:internal/streams/destroy:83:5)
+    at Writable.destroy (node:internal/streams/writable:1120:11)
+    at /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/got/dist/source/core/index.js:354:26
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9) {
+  code: 'ENOENT',
+  timings: undefined
+}
+2025-07-18 19:00:22 - [31merror[39m: Error in sending request to BrowserStack Server : RequestError: ENOENT: no such file or directory, stat '/Users/alphabin/Desktop/alphabin-demo-testgenx/test-results/example-Alpha-E2E-001-Veri-0cb4a--the-Home-Page-Successfully--Samsung-Galaxy-S22-Ultra-12-browserstack-mobile/trace.zip'
+    at Request._destroy (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/got/dist/source/core/index.js:1386:21)
+    at _destroy (node:internal/streams/destroy:121:10)
+    at Request.destroy (node:internal/streams/destroy:83:5)
+    at Writable.destroy (node:internal/streams/writable:1120:11)
+    at /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/got/dist/source/core/index.js:354:26
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9) {
+  code: 'ENOENT',
+  timings: undefined
+}
+2025-07-18 19:00:22 - [31merror[39m: Error in sending request to BrowserStack Server : RequestError: ENOENT: no such file or directory, stat '/Users/alphabin/Desktop/alphabin-demo-testgenx/test-results/example-Alpha-E2E-001-Veri-0cb4a--the-Home-Page-Successfully--latest-Windows-10-browserstack/trace.zip'
+    at Request._destroy (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/got/dist/source/core/index.js:1386:21)
+    at _destroy (node:internal/streams/destroy:121:10)
+    at Request.destroy (node:internal/streams/destroy:83:5)
+    at Writable.destroy (node:internal/streams/writable:1120:11)
+    at /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/got/dist/source/core/index.js:354:26
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9) {
+  code: 'ENOENT',
+  timings: undefined
+}
+2025-07-18 19:00:22 - [31merror[39m: Error in sending request to BrowserStack Server : RequestError: ENOENT: no such file or directory, stat '/Users/alphabin/Desktop/alphabin-demo-testgenx/test-results/example-Alpha-E2E-001-Veri-0cb4a--the-Home-Page-Successfully--latest-OSX-Big-Sur-browserstack/trace.zip'
+    at Request._destroy (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/got/dist/source/core/index.js:1386:21)
+    at _destroy (node:internal/streams/destroy:121:10)
+    at Request.destroy (node:internal/streams/destroy:83:5)
+    at Writable.destroy (node:internal/streams/writable:1120:11)
+    at /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/got/dist/source/core/index.js:354:26
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9) {
+  code: 'ENOENT',
+  timings: undefined
+}
+2025-07-18 19:00:22 - [31merror[39m: Error in sending request to BrowserStack Server : RequestError: ENOENT: no such file or directory, stat '/Users/alphabin/Desktop/alphabin-demo-testgenx/test-results/example-Alpha-E2E-001-Veri-0cb4a--the-Home-Page-Successfully--Samsung-Galaxy-S22-Ultra-12-browserstack-mobile/trace.zip'
+    at Request._destroy (/Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/got/dist/source/core/index.js:1386:21)
+    at _destroy (node:internal/streams/destroy:121:10)
+    at Request.destroy (node:internal/streams/destroy:83:5)
+    at Writable.destroy (node:internal/streams/writable:1120:11)
+    at /Users/alphabin/Desktop/alphabin-demo-testgenx/node_modules/got/dist/source/core/index.js:354:26
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9) {
+  code: 'ENOENT',
+  timings: undefined
+}
+2025-07-18 19:00:23 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 19:00:23 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 19:00:24 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 19:00:24 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 19:00:24 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}
+2025-07-18 19:00:24 - [31merror[39m: Error in sending request to BrowserStack Server : {
+  status: 'failed',
+  message: 'Invalid username or access-key. Visit https://www.browserstack.com/accounts/profile/details for more details.'
+}

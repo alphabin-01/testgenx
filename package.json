@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-      "test:chrome": "npx playwright test --project=chromium"
+    "test:chrome": "npx playwright test --project=chromium",
+    "postinstall": "npm update browserstack-node-sdk",
+    "test:chrome-browserstack": "npx browserstack-node-sdk playwright test --project=chromium"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "test",
   "dependencies": {
+    "@alphabin/trx": "^1.0.2",
     "alphabin-pw": "^1.0.11",
     "dotenv": "^16.4.5",
     "form-data": "^4.0.2",
@@ -17,7 +20,11 @@
     "playwright": "^1.47.2"
   },
   "devDependencies": {
-    "@playwright/test": "^1.52.0",
-    "@types/node": "^22.1.0"
+    "@currents/playwright": "^1.15.3",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^22.1.0",
+    "browserstack-cli": "^0.4.0",
+    "browserstack-local": "^1.5.8",
+    "browserstack-node-sdk": "^1.38.2"
   }
 }

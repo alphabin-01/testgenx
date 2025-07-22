@@ -1,6 +1,11 @@
+# .github/workflows/playwright-daily.yml
+# Runs Playwright test shards every day at **11 : 42 AM IST** (06 : 12 UTC)
+# plus anytime you trigger it manually from the Actions tab.
+
 name: Run Playwright tests
 
 on:
+<<<<<<< HEAD
   # schedule:
   #   # 8:00 AM IST => 2:30 AM UTC for main branch
   #   - cron: '0 9 * * 1-5'
@@ -8,34 +13,42 @@ on:
   #   - cron: '0 11 * * 1-5'
   #   # 12:00 PM IST => 6:30 AM UTC for dev branch
   #   - cron: '0 15 * * 1-5'
+=======
+  schedule:
+    # GitHub cron is always UTC → 06:12 UTC = 11:42 AM IST (UTC+5:30)
+    - cron: '12 6 * * *'
+>>>>>>> e53ee7a (added some test cases)
   workflow_dispatch:
 
 jobs:
   run-tests:
-    name: Run tests
+    name: Run Playwright shards
     runs-on: ubuntu-latest
 
+<<<<<<< HEAD
     if: |
       (github.ref == 'refs/heads/main' && github.event.schedule == '0 9 * * 1-5') ||
       (github.ref == 'refs/heads/staging' && github.event.schedule == '0 11 * * 1-5') ||
       (github.ref == 'refs/heads/test' && github.event.schedule == '0 15 * * 1-5') ||
       github.event_name == 'workflow_dispatch'
 
+=======
+>>>>>>> e53ee7a (added some test cases)
     strategy:
       fail-fast: false
       matrix:
-        shardIndex: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        shardIndex: [1,2,3,4,5,6,7,8,9,10]
         shardTotal: [10]
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js 18.x
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Cache npm modules
+      - name: Cache npm dependencies
         uses: actions/cache@v3
         with:
           path: ~/.npm
@@ -43,17 +56,17 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install dependencies
+      - name: Install deps + browsers
         run: |
           npm ci
           npx playwright install --with-deps
 
-      - name: Run tests
+      - name: Run shard ${{ matrix.shardIndex }}
         run: npm run test:chrome -- --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
 
       - name: Upload blob report
-        uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
         with:
           name: blob-report-${{ matrix.shardIndex }}
           path: ./blob-report
@@ -61,19 +74,24 @@ jobs:
 
   merge-reports:
     name: Merge Reports
+<<<<<<< HEAD
     needs: [run-tests]
     if: always()
+=======
+    needs: run-tests
+    if: always()             # run even if some shards fail
+>>>>>>> e53ee7a (added some test cases)
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js 18.x
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Cache npm modules
+      - name: Cache npm dependencies
         uses: actions/cache@v3
         with:
           path: ~/.npm
@@ -81,19 +99,23 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install dependencies
+      - name: Install deps + browsers
         run: |
           npm ci
           npx playwright install --with-deps
 
-      - name: Download blob reports
+      - name: Download all blob reports
         uses: actions/download-artifact@v4
         with:
           path: ./all-blob-reports
           pattern: blob-report-*
           merge-multiple: true
 
+<<<<<<< HEAD
       - name: Merge HTML/JSON report  
+=======
+      - name: Merge HTML & JSON reports
+>>>>>>> e53ee7a (added some test cases)
         run: npx playwright merge-reports --config=playwright.config.js ./all-blob-reports
 
       - name: Upload combined report
@@ -104,7 +126,17 @@ jobs:
           retention-days: 14
 
       - name: Send TestDino report
+<<<<<<< HEAD
         env: 
           NODE_ENV: 'staging'
         run: |
           npx --yes tdpw ./playwright-report --token="trx_staging_8e8d07d94ddde82c43fac1c83401555efbdff83c0e290138a95905df2a8e739e" --upload-html --verbose  
+=======
+        env:
+          NODE_ENV: 'staging'
+        run: |
+          npx --yes tdpw ./playwright-report \
+            --token="trx_staging_8e8d07d94ddde82c43fac1c83401555efbdff83c0e290138a95905df2a8e739e" \
+            --upload-html \
+            --verbose
+>>>>>>> e53ee7a (added some test cases)
